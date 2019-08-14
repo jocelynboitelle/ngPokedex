@@ -1,0 +1,10 @@
+<div class="filter">
+    <input (keyup)="eventName($event)" type="text" placeholder="Filter by Name">
+    <input (keyup)="eventId($event)" type="number" placeholder="Filter by id">
+    <select (change)="eventType($event)">
+        <option value="">filter by type</option>
+        <option *ngFor="let t of types" [value]="t">
+            {{ t }}
+        </option>
+    </select>
+</div>

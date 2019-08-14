@@ -1,0 +1,12 @@
+<div class="pokemon">
+    <div class="title">
+        <div> N°{{ pokemon.id }} </div>
+        <div> {{ pokemon.name }} </div>
+    </div>
+    <div class="img">
+        <img src="{{ pokemon.img }}" alt="{{ pokemon.name}}">
+    </div>
+    <div class="type">
+        <div *ngFor="let type of pokemon.type">{{ type }}</div>
+    </div>
+</div>

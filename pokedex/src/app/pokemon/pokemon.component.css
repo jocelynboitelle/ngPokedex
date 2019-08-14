@@ -1,0 +1,30 @@
+.pokemon {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pokemon .title {
+    height: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.pokemon .img {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+img {
+    max-height: 100px;
+    max-width: 150px;
+}
+
+.pokemon .type {
+    height: 15%;
+    margin: 5px;
+}

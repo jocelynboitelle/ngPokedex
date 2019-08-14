@@ -1,0 +1,8 @@
+<div class="page">
+    <app-list-pokemons [pokemons]="listPokemons"></app-list-pokemons>
+    <div class="sidebar">
+        <h1>Pokédex</h1>
+        <img src="../assets/img/sacha.png" alt="sacha">
+        <app-filter (sendFilter)="filterList($event)"></app-filter>
+    </div>
+</div>

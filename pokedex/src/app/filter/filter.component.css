@@ -1,0 +1,15 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+input, select {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
