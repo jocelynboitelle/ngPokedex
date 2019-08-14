@@ -1,17 +1,4 @@
 .pokemons {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 99%;
-    height: 99%;
-}
-
-app-pokemon {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-    background-color: white;
-    width: 150px;
-    min-height: 200px;
+    flex-flow: wrap;
 }

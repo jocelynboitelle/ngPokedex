@@ -23,8 +23,11 @@ export class AppComponent implements OnInit {
 
   futurData(criteria: Criteria, pokemon: Pokemon): boolean {
     
-    const isOkById = !criteria.id || pokemon.id === criteria.id;
-    const isOkByName = !criteria.name || pokemon.name.indexOf(criteria.name) !== -1;
+    const pokemonId = parseInt(pokemon.id, 10);
+    const criteriaId = parseInt(criteria.id, 10);
+
+    const isOkById = !criteria.id || pokemonId === criteriaId;
+    const isOkByName = !criteria.name || pokemon.name.toLowerCase().indexOf(criteria.name.toLowerCase()) !== -1;
     const isOkByType = !criteria.type || pokemon.type.indexOf(criteria.type) !== -1;
 
     return isOkById && isOkByName && isOkByType;
