@@ -8,7 +8,7 @@
     margin: 7px;
     background-color: white;
     width: 155px;
-    min-height: 200px;
+    height: 200px;
 
 }
 .pokemon .title {
@@ -27,8 +27,8 @@
 }
 
 img {
-    max-height: 100px;
     max-width: 150px;
+    height: auto;
 }
 
 .pokemon .type {
