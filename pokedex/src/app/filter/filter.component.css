@@ -6,8 +6,6 @@
 }
 
 input, select {
-    display: flex;
-    flex-direction: column;
     padding: 8px;
     margin: 5px;
     border: 1px solid black;

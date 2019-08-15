@@ -38,11 +38,11 @@ app-list-pokemons {
 }
                 
 .sidebar {
-    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     justify-items: center;
+    width: 20%;
     background-color: whitesmoke;
 }
                 
@@ -55,4 +55,24 @@ h1 {
     text-align: center;
     font-size: 40px;
     color: rgb(192, 41, 41);
+}
+
+a {
+    margin: auto;
+}
+
+button {
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #555555;
+    font-size: 22px;
+}
+  
+button:hover {
+    border-radius: 20px;
+    background-color: #555555;
+    color: white;
 }
